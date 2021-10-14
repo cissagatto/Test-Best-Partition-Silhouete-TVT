@@ -4,7 +4,7 @@
 @misc{Gatto2021, author = {Gatto, E. C.}, title = {Test the Best Partition selected using Silhouete Coefficient version 1}, year = {2021}, publisher = {GitHub}, journal = {GitHub repository}, howpublished = {\url{https://github.com/cissagatto/Test-Best-Parition-Silhouete-TVT}}}
 
 
-**IMPORTANT!! PLEASE READ BEFORE RUNNING: All of my experiments use the validation, train and set test. But, in this version, the code uses only the train and test sets and the validation set is ignored. This code was implemented thinking of that situation. Please, pay attention to this. You need to generated these sets when runing the multi-label cross-validation code.**
+**IMPORTANT!! PLEASE READ BEFORE RUNNING: All of my experiments use the validation, train and set test. But, in this version, the code joint the train and validation sets. This code was implemented thinking of that situation. Please, pay attention to this. You need to generated these sets when runing the multi-label cross-validation code.**
 
 <img src="" width="100">
 
