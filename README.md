@@ -25,7 +25,7 @@ This code is executed in X-fold cross-validation (mandatory!). First, you have t
 <img src="https://github.com/cissagatto/Test-Best-Partition-Silhouete/blob/main/images/10-Folds-Cross-Validation.png" width="300">
 
 ### Step-2
-Place a copy of this code in _"C:/Users/[username]/Test-Best-Partition-Silhouete"_ or _"/home/[username]/Test-Best-Partition-Silhouete_. Our files are configured to obtain the paths of the folders from the root project. You can change this in the code if you want.
+Place a copy of this code in _"C:/Users/[username]/Test-Best-Partition-Silhouete-TVT"_ or _"/home/[username]/Test-Best-Partition-Silhouete-TVT_. Our files are configured to obtain the paths of the folders from the root project. You can change this in the code if you want.
 
 ### Step-3
 A file called *datasets-hpmlk.csv* must be in the root project folder. This file is used to read information about the datasets and they are used in the code. All 74 datasets available in cometa (https://cometa.ujaen.es/) are in this file. If you want to use another dataset, please, add the following information about the dataset in the file:
@@ -38,15 +38,15 @@ The _"Id"_ of the dataset is a mandatory parameter in the command line to run al
 Confirms if the folder UTILS contains the following files: Clus.jar, R_csv_2_arff.jar, and weka.jar. Without these jars, the code not runs. Also, confirms if the folder _libs_ is present with the jars: Clus.jar, commons-math-1.0.jar, jgap.jar and weka.jar.
 
 ### Step-5
-The results stored in the folder _OUTPUT_ in the code https://github.com/cissagatto/Best-Partition-Silhouete will be used here. Copy the folder with the name of the dataset in the folder _BESTPARTITIONS_.
+The results stored in the folder _OUTPUT_ in the code https://github.com/cissagatto/Best-Partition-Silhouete-TVT will be used here. Copy the folder with the name of the dataset in the folder _BESTPARTITIONS_.
 
-<img src="https://github.com/cissagatto/Test-Best-Partition-Silhouete/blob/main/images/Best-Partitions-Silhouete.png" width="300">
+<img src="https://github.com/cissagatto/Test-Best-Partition-Silhouete-TVT/blob/main/images/Best-Partitions-Silhouete.png" width="300">
 
 NOTE: Please, pay attention to the *datasets-hpmlk.csv* names and the names in the CSV file. They must be the same, on the contrary, an error may occur.
 
 ## Folder Strucutre
 
-<img src="https://github.com/cissagatto/Test-Best-Partition-Silhouete/blob/main/images/Test-Silhouete.png" width="300">
+<img src="https://github.com/cissagatto/Test-Best-Partition-Silhouete-TVT/blob/main/images/Test-Silhouete.png" width="300">
 
 ## Software Requirements
 This code was develop in *RStudio Version 1.4.1106 © 2009-2021 RStudio, PBC "Tiger Daylily" (2389bc24, 2021-02-11) for Ubuntu Bionic Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.12.8 Chrome/69.0.3497.128 Safari/537.36*. The R Language version was: *R version 4.1.0 (2021-05-18) -- "Camp Pontanezen" Copyright (C) 2021 The R Foundation for Statistical Computing Platform: x86_64-pc-linux-gnu (64-bit)*. 
@@ -72,10 +72,10 @@ _Then the experiment was executed in a cluster at UFSCar._
 ## Results
 The results are stored in the folder _RESULTS_. 
 
-<img src="https://github.com/cissagatto/Test-Best-Partition-Silhouete/blob/main/images/Resultados-Test-Silhouete.png" width="300">
+<img src="https://github.com/cissagatto/Test-Best-Partition-Silhouete-TVT/blob/main/images/Resultados-Test-Silhouete.png" width="300">
 
 ## RUN
-To run the code, open the terminal, enter */home/[username]/Test-Best-Partition-Silhouete/scripts/* folder, and type:
+To run the code, open the terminal, enter */home/[username]/Test-Best-Partition-Silhouete-TVT/scripts/* folder, and type:
 
 ```
 Rscript test.R [number_dataset] [number_cores] [number_folds] [name_folder_results]
@@ -126,4 +126,3 @@ This study is financed in part by the Coordenação de Aperfeiçoamento de Pesso
 [Twitter](https://twitter.com/professoracissa)
 
 # Thanks
-
