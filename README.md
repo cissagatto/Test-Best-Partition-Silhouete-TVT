@@ -101,7 +101,12 @@ This will execute the code for the dataset number 17 in the _dataset-hpmlk.csv_,
 
 
 ## Acknowledgment
-This study is financed in part by the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil (CAPES) - Finance Code 001
+- This study was financed in part by the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil (CAPES) - Finance Code 001.
+- This study was financed in part by the Conselho Nacional de Desenvolvimento Científico e Tecnológico - Brasil (CNPQ) - Process number 200371/2022-3.
+- The authors also thank the Brazilian research agencies FAPESP financial support.
+
+# Contact
+elainececiliagatto@gmail.com
 
 ## Links
 
